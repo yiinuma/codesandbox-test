@@ -36,3 +36,13 @@
 // val5[0] = "bird";
 // val5.push("monkey");
 // console.log(val5.slice(-1));
+
+/**
+ * テンプレート文字列
+ */
+const name = "yoshihiro";
+const age = "100";
+const message1 = "私の名前は" + name + "です。年齢は" + age + "です。";
+console.log(message1);
+const message2 = `私の名前は${name}です!!。年齢は${age}です。`;
+console.log(message2);
